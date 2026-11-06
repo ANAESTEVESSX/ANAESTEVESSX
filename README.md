@@ -1,26 +1,25 @@
-# Olá, eu sou a Ana Esteves 👋
+## Olá, eu sou a Ana Esteves 👋
 
-Analista Financeira Pleno com foco em **dados e automação**. Trabalho na Tesouraria de um grupo com 5 empresas, transformando rotinas financeiras manuais em ferramentas automatizadas com **Python** e **Oracle NetSuite (SuiteScript / SuiteQL)**.
+Trabalho no **Financeiro do Grupo 123** (123 Milhas · MaxMilhas). Transformo rotinas manuais de tesouraria, contas a pagar e contabilidade em automações: scripts no ERP, agentes em Python e painéis de dados.
 
-- 🔄 Conciliação de pagamentos: de 2–3 horas para 20 minutos por dia
-- ⚖️ Levantamento de bloqueios judiciais: de 2–3 horas para 30 minutos
-- 🏦 Arquivos bancários CNAB 240 / 400 e integração via VAN bancária
-- 🎓 Análise e Desenvolvimento de Sistemas — PUC Minas
+### 🔧 O que eu construo
 
-### Projetos
+- **NetSuite / SuiteScript 2.1:** Suitelets de controle e dashboards executivos, User Events de validação, aprovações em lote com Map/Reduce e consultas em SuiteQL.
+- **Agentes em Python:** conciliação bancária diária, validação de pagamentos via bot no Slack, organização de comprovantes e levantamento de bloqueios judiciais em extratos.
+- **Power BI:** painel de conciliação bancária NetSuite × banco, com Power Query (M), DAX e ODBC (SuiteAnalytics Connect).
 
-| Projeto | O que faz | Stack |
-| --- | --- | --- |
-| [reconciliation-agent-demo](https://github.com/ANAESTEVESSX/reconciliation-agent-demo) | Concilia extrato bancário x base de pagamentos e aponta divergências | Python, pandas, openpyxl |
-| [judicial-blocks-report-demo](https://github.com/ANAESTEVESSX/judicial-blocks-report-demo) | Lê extratos de vários bancos e consolida bloqueios e depósitos judiciais por empresa | Python, openpyxl |
-| [refund-d1-dashboard-demo](https://github.com/ANAESTEVESSX/refund-d1-dashboard-demo) | Valida estornos em D+1 e gera dashboard em Excel com KPIs | Python, openpyxl |
-| [slack-payment-validator-demo](https://github.com/ANAESTEVESSX/slack-payment-validator-demo) | Bot de Slack que valida a planilha de pagamentos contra regras de negócio | Python, Slack Bolt |
-| [netsuite-suitescript-samples](https://github.com/ANAESTEVESSX/netsuite-suitescript-samples) | Exemplos de Suitelet de dashboard e SuiteQL com paginação | SuiteScript 2.1, SuiteQL |
-| [cnab-file-validator](https://github.com/ANAESTEVESSX/cnab-file-validator) | Valida layout de arquivos CNAB 240 e CNAB 400 | Python |
+### 📂 Projetos
 
-### Stack
-`Python` `SQL / SuiteQL` `SuiteScript 2.x` `JavaScript` `HTML/CSS` `Excel` `Power BI` `Java`
+| Repositório | Descrição |
+|---|---|
+| [netsuite-grupo123](../../netsuite-grupo123) | SuiteScripts de contas a pagar, aprovações, cadastro de fornecedores e dashboards de caixa |
+| [agentes-financeiro](../../agentes-financeiro) | Agentes Python: conciliação D+1, validador do Flow STD (Slack), comprovantes e extratos judiciais |
+| [conciliacao-bancaria](../../conciliacao-bancaria) | Painel Power BI + extrator de saldos + Suitelet de saldos bancários |
 
-📫 [LinkedIn](https://linkedin.com/in/ana-clara-esteves) · anaclara2003712@gmail.com
+### 🧰 Stack
 
-> Todos os repositórios usam dados fictícios. Nenhum código ou dado de empresa é publicado aqui.
+`NetSuite` `SuiteScript` `SuiteQL` `Python` `pandas` `openpyxl` `Power BI` `Power Query` `DAX` `Slack API` `SQL`
+
+### 💡 Foco
+
+Fechamento mais rápido, menos retrabalho e dados financeiros confiáveis: toda automação nasce de uma dor real do dia a dia do Financeiro.
