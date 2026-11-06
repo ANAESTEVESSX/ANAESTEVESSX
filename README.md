@@ -10,11 +10,11 @@ Atuo na área **financeira** transformando rotinas manuais de tesouraria, contas
 
 ### 📂 Projetos
 
-| Repositório | Descrição |
-|---|---|
-| [netsuite-grupo123](../../netsuite-grupo123) | SuiteScripts de contas a pagar, aprovações, cadastro de fornecedores e dashboards de caixa |
-| [agentes-financeiro](../../agentes-financeiro) | Agentes Python: conciliação diária, validador de pagamentos (Slack), comprovantes e extratos judiciais |
-| [conciliacao-bancaria](../../conciliacao-bancaria) | Painel Power BI + extrator de saldos + Suitelet de saldos bancários |
+- **SuiteScripts para NetSuite:** contas a pagar, aprovações em lote, cadastro de fornecedores e dashboards de caixa.
+- **Agentes financeiros em Python:** conciliação diária, validador de pagamentos (Slack), organização de comprovantes e análise de extratos judiciais.
+- **Conciliação bancária:** painel Power BI, extrator de saldos e Suitelet de saldos bancários.
+
+> 🔒 O código desses projetos fica em repositórios privados.
 
 ### 🧰 Stack
 
